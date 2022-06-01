@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="293" started-at="2022-05-30T10:21:48Z" finished-at="2022-05-30T10:21:48Z">
+    <groups>
+      <group name="sanity">
+        <method signature="Program1Test.programtest()[pri:0, instance:BasicProgramTest.Program1Test@556d0826]" name="programtest" class="BasicProgramTest.Program1Test"/>
+        <method signature="Program3Test.idNumber()[pri:0, instance:BasicProgramTest.Program3Test@55b5f5d2]" name="idNumber" class="BasicProgramTest.Program3Test"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="293" started-at="2022-05-30T10:21:48Z" finished-at="2022-05-30T10:21:48Z">
+      <class name="BasicProgramTest.Program1Test">
+        <test-method status="PASS" signature="programtest()[pri:0, instance:BasicProgramTest.Program1Test@556d0826]" name="programtest" duration-ms="88" started-at="2022-05-30T10:21:48Z" finished-at="2022-05-30T10:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- programtest -->
+      </class> <!-- BasicProgramTest.Program1Test -->
+      <class name="BasicProgramTest.Program2Test">
+        <test-method status="PASS" signature="employesname()[pri:0, instance:BasicProgramTest.Program2Test@66ce957f]" name="employesname" duration-ms="1" started-at="2022-05-30T10:21:48Z" finished-at="2022-05-30T10:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employesname -->
+      </class> <!-- BasicProgramTest.Program2Test -->
+      <class name="BasicProgramTest.Program3Test">
+        <test-method status="PASS" signature="idNumber()[pri:0, instance:BasicProgramTest.Program3Test@55b5f5d2]" name="idNumber" duration-ms="2" started-at="2022-05-30T10:21:48Z" finished-at="2022-05-30T10:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idNumber -->
+      </class> <!-- BasicProgramTest.Program3Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
